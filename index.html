@@ -7,10 +7,10 @@
     <script>
          window.onload = function () {
              alert("Your ggs are in danger! ");
-            }
-         window.onbeforeunload = function (event) {var e = event | | window .event;
-        e.returnValue = "Are you sure you want to give up your ggs? "; 
-        }
+         }
+         window.onbeforeunload = function (event) {var e = event || window.event;
+         e.returnValue = "Are you sure you want to give up your ggs? "; 
+         }
     </script>
     <style>
         body {
